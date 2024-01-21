@@ -4,7 +4,7 @@ import ru.todoapp.domain.entities.Task;
 
 import java.util.UUID;
 
-public interface TaskRepository {
+public interface TaskService {
     Task getById(UUID id);
     boolean create(Task task);
     boolean update(Task task);
